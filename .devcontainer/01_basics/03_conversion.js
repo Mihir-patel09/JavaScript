@@ -64,5 +64,10 @@ let gameCounter = 100
 ++gameCounter;
 console.log(gameCounter);
 
+let x = 4;
+let y = x++; //x = 4; y=5;
+
+let a = 4;
+let b = ++a; //a=5; b=5;
 // link of conversions
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
