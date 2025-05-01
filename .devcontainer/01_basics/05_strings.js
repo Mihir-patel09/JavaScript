@@ -33,3 +33,16 @@ console.log(url.replace('%20', '-'))
 console.log(url.includes('sundar'))
 
 console.log(gameName.split('-'));
+
+
+/*Method	         Description
+.length    	       Returns string length
+.charAt(n)	       Character at index n
+.indexOf(val)	     First index of val or -1
+.substring(a,b)	   Extract from a to b (no negatives)
+.slice(a,b)	       Like substring but supports negatives
+.trim()	           Removes whitespace from ends
+.replace(a,b)	     Replaces first a with b
+.includes(val)	   Checks if val exists in string
+.split('-')	       Splits string into array by delimiter
+*/
